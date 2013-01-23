@@ -13,6 +13,7 @@
         android:theme="@style/StyledIndicators" >
         <activity
             android:name="com.example.optionsmenu.TabsActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
